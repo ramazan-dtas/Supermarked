@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Supermarked.Class
 {
-    class Betaling
+    public class Betaling
     {
+
     }
 }

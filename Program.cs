@@ -10,6 +10,7 @@ namespace Supermarked
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Supermarked.Class
 {
-    class Varer
+    public class Varer
     {
+        public int number { get; set; }
+        public string name { get; set; }
+        public int price { get; set; }
     }
 }
