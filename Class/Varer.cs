@@ -11,6 +11,7 @@ namespace Supermarked.Class
         public int number { get;  set; }
         public string name { get; set; }
         public double price { get; set; }
+        
         /*
         public Varer(int Number, string Name, int Price)
         {
@@ -19,7 +20,7 @@ namespace Supermarked.Class
             price = Price;
         }*/
 
-        public void vare(int Number, string Name, double Price)
+        private void varer(int Number, string Name, double Price)
         {
             number = Number;
             name = Name;
@@ -62,8 +63,17 @@ namespace Supermarked.Class
                     Price = 33.21;
                     break;
                 case "Gå til kassen":
+                    new Betaling();
                     break;
             }
+        }
+        
+        public void udskriv()
+        {
+            Console.WriteLine("Varer \t Pris \t Vare nummer");
+            Console.WriteLine($"{name} \t {price} \t {number}");
+
+
         }
     }
 }

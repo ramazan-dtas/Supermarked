@@ -10,11 +10,12 @@ namespace Supermarked
     {
         static void Main(string[] args)
         {
+            Class.Varer p1 = new Class.Varer();
             string svar = Class.funktionalitet.Select(new string[] { "Kunde", "medarbejder", "leder"}).ToLower();
             switch (svar)
             {
                 case "Kunde":
-                    new Class.Varer();
+                    p1.ToString();
                     break;
                 case "medarbejder":
                     new Class.Status();
