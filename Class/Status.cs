@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Supermarked.Class
 {
-    public class Varer
+    class Status
     {
-        public int number { get; set; }
-        public string name { get; set; }
-        public int price { get; set; }
-
-
+        public string kunde { get; set; }
+        public string medarbejder { get; set; }
+        public string leder { get; set; }
     }
 }

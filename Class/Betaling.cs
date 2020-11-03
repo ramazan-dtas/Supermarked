@@ -8,6 +8,8 @@ namespace Supermarked.Class
 {
     public class Betaling
     {
+        public string betalingsmiddel { get; set; }
+        public int Pris { get; set; }
 
     }
 }
