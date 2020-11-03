@@ -11,5 +11,17 @@ namespace Supermarked.Class
         public int number { get; set; }
         public string name { get; set; }
         public int price { get; set; }
+        /*
+        public Varer(int Number, string Name, int Price)
+        {
+            number = Number;
+            name = Name;
+            price = Price;
+        }*/
+
+        public void vareads()
+        {
+
+        }
     }
 }
