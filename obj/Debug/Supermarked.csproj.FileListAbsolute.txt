@@ -1,0 +1,6 @@
+C:\Users\rade\source\repos\Supermarked\Supermarked\bin\Debug\Supermarked.exe.config
+C:\Users\rade\source\repos\Supermarked\Supermarked\bin\Debug\Supermarked.exe
+C:\Users\rade\source\repos\Supermarked\Supermarked\bin\Debug\Supermarked.pdb
+C:\Users\rade\source\repos\Supermarked\Supermarked\obj\Debug\Supermarked.csprojAssemblyReference.cache
+C:\Users\rade\source\repos\Supermarked\Supermarked\obj\Debug\Supermarked.exe
+C:\Users\rade\source\repos\Supermarked\Supermarked\obj\Debug\Supermarked.pdb

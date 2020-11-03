@@ -11,7 +11,5 @@ namespace Supermarked.Class
         public int number { get; set; }
         public string name { get; set; }
         public int price { get; set; }
-
-
     }
 }

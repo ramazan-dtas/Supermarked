@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\Betaling.cs" />
+    <Compile Include="Class\funktionalitet.cs" />
+    <Compile Include="Class\Status.cs" />
     <Compile Include="Class\Varer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
