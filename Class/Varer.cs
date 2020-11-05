@@ -12,12 +12,8 @@ namespace Supermarked.Class
         public string name { get; set; }
         public double price { get; set; }
 
-
-
         public void varer(int Number, string Name, double Price)
         {
-            
-
             Name = funktionalitet.Select(new string[] { "Coca Cola", "Fanta", "Sødmælk", "Letmælk", "Løg", "Agurk", "Chips", "Slik", "Gå til kassen" });
             Console.Clear();
             switch (Name)
@@ -70,14 +66,6 @@ namespace Supermarked.Class
             name = Name;
             number = Number;
             price = Price;
-        }
-
-        public void udskriv()
-        {
-            Console.WriteLine("Varer \t Pris \t Vare nummer");
-            Console.WriteLine($"{name} \t {price} \t {number}");
-
-
         }
     }
 }
