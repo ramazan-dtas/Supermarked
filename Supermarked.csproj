@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Class\Betaling.cs" />
     <Compile Include="Class\funktionalitet.cs" />
-    <Compile Include="Class\Status.cs" />
     <Compile Include="Class\Varer.cs" />
     <Compile Include="Controller\Price check.cs" />
     <Compile Include="Program.cs" />

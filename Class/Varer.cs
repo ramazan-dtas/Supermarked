@@ -70,8 +70,6 @@ namespace Supermarked.Class
 
                 }
             }
-           
-           
             name = Name;
             number = Number;
             price = Price;
