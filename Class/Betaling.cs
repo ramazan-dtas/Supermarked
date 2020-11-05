@@ -51,6 +51,11 @@ namespace Supermarked.Class
                 }
                 
             }
+
+            if(Betalingsmiddel == "Dankort")
+            {
+                
+            }
             betalingsmiddel = Betalingsmiddel;
             totalpris = Totalpris;
         }
