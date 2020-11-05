@@ -11,11 +11,13 @@ namespace Supermarked
         static void Main(string[] args)
         {
             Class.Varer p1 = new Class.Varer();
+            /*
             string svar = Class.funktionalitet.Select(new string[] { "Kunde", "medarbejder", "leder"}).ToLower();
             switch (svar)
             {
                 case "Kunde":
-                    p1.ToString();
+                    p1.udskriv();
+                    Console.Clear();
                     break;
                 case "medarbejder":
                     new Class.Status();
@@ -26,6 +28,9 @@ namespace Supermarked
                 default:
                     break;
             }
+            */
+            p1.varer(p1.number,p1.name,p1.price);
+            Console.WriteLine($"Vare navn {p1.name} nummer {p1.number.ToString()} pris {p1.price}");
             Console.ReadKey();
         }
     }
