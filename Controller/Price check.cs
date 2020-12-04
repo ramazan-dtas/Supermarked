@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Supermarked.Controller
 {
-    class Price_check
+    class Price_check: Class.Varer
     {
+        
     }
 }

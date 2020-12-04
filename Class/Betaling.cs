@@ -36,14 +36,25 @@ namespace Supermarked.Class
                     switch (Betalingsmiddel)
                     {
                         case "50":
+                            Console.WriteLine(50 - price);
                             break;
                         case "100":
+                            Console.WriteLine(100 - price);
                             break;
                         case "200":
+                            Console.WriteLine(200 - price);
                             break;
                         case "500":
+                            Console.WriteLine(500 - price);
                             break;
                         case "1000":
+                            Console.WriteLine(1000 - price);
+                            if(price <= 0)
+                            {
+
+                            }
+                            else{
+                            }
                             break;
                         default:
                             break;

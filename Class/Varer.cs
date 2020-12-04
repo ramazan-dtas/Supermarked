@@ -18,7 +18,6 @@ namespace Supermarked.Class
             bool sa = false;
             while (!sa)
             {
-                Name = funktionalitet.Select(new string[] { "Coca Cola", "Fanta", "Sødmælk", "Letmælk", "Løg", "Agurk", "Chips", "Slik", "Gå til kassen" });
                 Console.Clear();
                 switch (Name)
                 {
@@ -65,7 +64,7 @@ namespace Supermarked.Class
                     case "Gå til kassen":
                         sa = true;
                         Console.Clear();
-                        new Betaling();
+                        Betaling p1 = new Betaling();
                         break;
 
                 }
