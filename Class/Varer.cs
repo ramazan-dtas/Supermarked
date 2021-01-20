@@ -14,7 +14,21 @@ namespace Supermarked.Class
 
         public void varer(int Number, string Name, double Price)
         {
-            //Her 
+            name = Name;
+            number = Number;
+            price = Price;
+            List<Varer> products = new List<Varer>
+            {
+                new Varer {Name = "Coca Cola", Number = 132456, Price = 15.00},
+                new Varer {Name = "Fanta", Number = 123489, Price = 15.00},
+                new Varer {Name = "Sødmælk", Number = 145213, Price = 7.95},
+                new Varer {Name = "Letmælk", Number = 132457, Price = 7.50},
+                new Varer {Name = "Løg", Number = 983212, Price = 5.00},
+                new Varer {Name = "Agurk", Number = 321893, Price = 6.00},
+                new Varer {Name = "Chips", Number = 843290, Price = 23.00},
+                new Varer {Name = "Slik", Number = 198432, Price = 25.00}
+            };
+            /*
             bool sa = false;
             while (!sa)
             {
@@ -68,10 +82,8 @@ namespace Supermarked.Class
                         break;
 
                 }
-            }
-            name = Name;
-            number = Number;
-            price = Price;
+            }*/
+
         }
     }
 }

@@ -10,3 +10,7 @@ C:\Users\rade\Documents\GitHub\Supermarked\obj\Debug\Supermarked.pdb
 C:\Users\rade\Documents\GitHub\Supermarked\bin\Debug\Supermarked.exe.config
 C:\Users\rade\Documents\GitHub\Supermarked\bin\Debug\Supermarked.exe
 C:\Users\rade\Documents\GitHub\Supermarked\bin\Debug\Supermarked.pdb
+C:\Users\drama\OneDrive\Skrivebord\Supermarked\obj\Debug\Supermarked.csprojAssemblyReference.cache
+C:\Users\drama\OneDrive\Skrivebord\Supermarked\obj\Debug\Supermarked.csproj.CoreCompileInputs.cache
+C:\Users\drama\OneDrive\Skrivebord\Supermarked\obj\Debug\Supermarked.exe
+C:\Users\drama\OneDrive\Skrivebord\Supermarked\obj\Debug\Supermarked.pdb
